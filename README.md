@@ -49,3 +49,8 @@ deactivate
 ```
 pip install <package-name>
 ```
+
+### How to view all packages in an environment
+```
+pip list
+```
