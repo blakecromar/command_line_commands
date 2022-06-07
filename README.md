@@ -28,10 +28,21 @@ where python
 ```
 ## Python
 
+### How to check your python version
+
+```
+python --version
+```
+
 ### Creating a virtual envioronment
+Note: you can specify the specific version of python you would like to use
 
 ```
 python -m venv ~/.[your-repo-name]
+```
+
+```
+python[version-number] -m venv ~/.[your-repo-name]
 ```
 
 ### Activating a virtual envioronment
