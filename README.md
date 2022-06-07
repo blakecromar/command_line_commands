@@ -106,3 +106,11 @@ pip --version
 ```
 python -m pip install --upgrade pip
 ```
+
+## Authors
+
+* **Blake Cromar** - *Initial work* 
+
+## Acknowledgments
+
+* (None Listed)
