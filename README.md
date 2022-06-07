@@ -2,20 +2,20 @@
 
 ## Bash
 
-### Go into a folder
+## Go into a folder
 
 Note: You can list just a folder if you are already in it's directory. <br>
 Note: Two dots signal going up one folder
 
 ```
-cd <folder or directory>
+cd [folder or directory]
 ```
 
 ```
 cd ..
 ```
 
-### View all files and folders of a directionry
+## View all files and folders of a directionry
 
 ```
 ls
@@ -29,38 +29,59 @@ where python
 
 ## Python
 
-### Creating a virtual envioronment
+## Creating a virtual envioronment
 
 ```
-python -m venv ~/.<your-repo-name>
+python -m venv ~/.[your-repo-name]
 ```
 
-### Activating a virtual envioronment
+## Activating a virtual envioronment
 ```
 source ~/.<your-repo-name>/bin/activate
 ```
 
-### How to deactivate virtual envioronment
+## How to deactivate virtual envioronment
 ```
 deactivate
 ```
 
-### How to install a package to environment
+## How to install a package to environment
+Note: `--upgrade` upgrades a packages to the newest version
+
 ```
-pip install <package-name>
+pip install [package-name]
 ```
 
-### How to view all packages in an environment
+```
+pip install [package_name] --upgrade
+```
+
+## How to unintall a package
+
+```
+pip uninstall [some-package-name]
+```
+
+## How to view all packages in an environment
+Note: `--outdated` lists just packages that can be updated
+
 ```
 pip list
 ```
 
-### How to check your pip version
+```
+pip list --outdated
+```
+
+## How to check your pip version
 ```
 pip --version
 ```
 
-### How to update pip
+## How to update pip
 ```
 python -m pip install --upgrade pip
 ```
+
+
+
