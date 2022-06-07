@@ -35,7 +35,9 @@ python --version
 ```
 
 ### Creating a virtual envioronment
-Note: you can specify the specific version of python you would like to use
+Note: You can specify the specific version of python you would like to use. <br>
+Note: Once the python version is specifically decided upon you can't change it for the environment. <br>
+Note: If you don't list a version it will automatically choose a recent `python` release.
 
 ```
 python -m venv ~/.[your-repo-name]
