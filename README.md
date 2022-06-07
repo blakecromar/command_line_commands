@@ -28,3 +28,19 @@ where python
 ```
 
 ## Python
+
+### Creating a virtual envioronment
+
+```
+python -m venv ~/.<your-repo-name>
+```
+
+### Activating a virtual envioronment
+```
+source ~/.<your-repo-name>/bin/activate
+```
+
+### How to deactivate virtual envioronment
+```
+deactivate
+```
