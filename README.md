@@ -21,4 +21,10 @@ cd ..
 ls
 ```
 
+### How to check where your virtiual enviornment is located on your computer
+
+```
+where python
+```
+
 ## Python
