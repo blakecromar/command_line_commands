@@ -59,7 +59,8 @@ deactivate
 
 ### How to install a package to environment
 
-Note: `--upgrade` upgrades a packages to the newest version
+Note: `--upgrade` upgrades a packages to the newest version. <br>
+Note: You can modify a package version number or have the package come installed with a specific version with `==`
 
 ```
 pip install [package-name]
@@ -67,6 +68,10 @@ pip install [package-name]
 
 ```
 pip install [package_name] --upgrade
+```
+
+```
+pip install [package_name]==[version_number]
 ```
 
 ### How to add all packages from requirements.txt file to environment
