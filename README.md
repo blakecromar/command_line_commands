@@ -56,6 +56,12 @@ pip install [package-name]
 pip install [package_name] --upgrade
 ```
 
+### How to add all packages from requirements.txt file to environment
+
+```
+pip install -r requirements.txt
+```
+
 ### How to unintall a package
 
 ```
