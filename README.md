@@ -54,3 +54,13 @@ pip install <package-name>
 ```
 pip list
 ```
+
+### How to check your pip version
+```
+pip --version
+```
+
+### How to update pip
+```
+python -m pip install --upgrade pip
+```
