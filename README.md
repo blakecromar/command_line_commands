@@ -1,7 +1,5 @@
 # Command Line Actions
 
-## Bash
-
 ## Go into a folder
 
 Note: You can list just a folder if you are already in it's directory. <br>
