@@ -44,3 +44,8 @@ source ~/.<your-repo-name>/bin/activate
 ```
 deactivate
 ```
+
+### How to install a package to environment
+```
+pip install <package-name>
+```
