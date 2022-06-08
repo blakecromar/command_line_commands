@@ -40,16 +40,16 @@ Note: Once the python version is specifically decided upon you can't change it f
 Note: If you don't list a version it will automatically choose a recent `python` release.
 
 ```
-python -m venv [your-repo-name]
+python -m venv ~/.[your-repo-name]
 ```
 
 ```
-python[version-number] -m venv [your-repo-name]
+python[version-number] -m venv ~/.[your-repo-name]
 ```
 
 ### Activating a virtual envioronment
 ```
-source [your-repo-name]/bin/activate
+source ~/.[your-repo-name]/bin/activate
 ```
 
 ### How to deactivate virtual envioronment
