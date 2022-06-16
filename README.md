@@ -37,6 +37,23 @@ pwd
 clear
 ```
 
+### Determine user within the terminal
+```
+whoami
+```
+
+### Determine if you can connect to a website from where you are at
+```
+ping [website]
+```
+
+### How to terminate a process on command line
+Note: This is the command for Mac users
+
+```
+control+c
+```
+
 ### How to give user reading permissions to a file
 ```
 chmod 0400 [file_name]
