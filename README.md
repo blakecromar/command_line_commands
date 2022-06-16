@@ -32,6 +32,16 @@ where python
 pwd
 ```
 
+### How to clear the terminal
+```
+clear
+```
+
+### How to give user reading permissions to a file
+```
+chmod 0400 [file_name]
+```
+
 ## Python
 
 ### How to check your python version
