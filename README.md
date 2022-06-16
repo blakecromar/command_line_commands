@@ -26,6 +26,12 @@ ls
 ```
 where python
 ```
+
+### How to check where you are on your computer
+```
+pwd
+```
+
 ## Python
 
 ### How to check your python version
