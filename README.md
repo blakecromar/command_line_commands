@@ -59,6 +59,13 @@ control+c
 chmod 0400 [file_name]
 ```
 
+### How to exit out of a user session on terminal
+Use this command to exit out of an instance user session.
+
+```
+exit (or control+d) | Used to exit out of instance.
+```
+
 ## Python
 
 ### How to check your python version
