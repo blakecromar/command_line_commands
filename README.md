@@ -72,9 +72,10 @@ lsof -i -n -P | grep <PORT NUMBER>
 ```
 
 ### How to kill a process related to a port 
-```
+
 Note: If you want to kill a process related to a port search for all process with `lsof -i -n -P | grep <PORT NUMBER>`
 
+```
 kill <PROCESS ID> 
 ```
 
