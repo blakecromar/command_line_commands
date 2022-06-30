@@ -66,6 +66,18 @@ Use this command to exit out of an instance user session.
 exit (or control+d) | Used to exit out of instance.
 ```
 
+### How to list all processes related to a port number
+```
+lsof -i -n -P | grep <PORT NUMBER>
+```
+
+### How to kill a process related to a port 
+```
+Note: If you want to kill a process related to a port search for all process with `lsof -i -n -P | grep <PORT NUMBER>`
+
+kill <PROCESS ID> 
+```
+
 ## Python
 
 ### How to check your python version
